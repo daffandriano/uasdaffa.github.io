@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UAS Daffa Andrian</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel="stylesheet" type="text/css" href="assets/global.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<main>
+		<div class="logowwdhape">
+			<img src="photos/logo-WWD_en_304x140.png" class="logowwdnya">
+		</div>
+		<button class="tombolhape" onclick="document.getElementById('overlay').classList.add('show')">
+		</button>
+
+		<button class="tomboltutup" onclick="document.getElementById('overlay').classList.remove('show')"></button>
+
+		<div class="overlay" id="overlay">
+			<a href="index.html"><div class="menufont1">
+			Home	
+			</div></a>
+			<a href="getinvolved.html"><div class="menufont">
+			Get Involved	
+			</div></a>
+			<div class="menufont">
+			Events	
+			</div>
+			<div class="menufont">
+			Materials	
+			</div>
+			<div class="menufont">
+			Festivals	
+			</div>
+			<div class="menufont">
+			Messages	
+			</div>
+			<div class="menufont">
+			Media	
+			</div>															
+		</div>
+		<nav>
+
+
+			<div class="holderlogowwd"><img src="photos/logo-WWD_en_304x140.png"/ class="logowwduy"></div>
+
+			<section style="column-width: 1300px; float: left;" id="menubar">
+
+		</section>
+
+		</nav>
+		<section class="awal">
+			<div class="bagianatas">
+				<h4 class="maret">3 March</h4>
+				<h1 class="title">World Wildlife Day</h1>
+				<h5 class="subhead">An occasion to denounce world wildlife crime</h5>
+			</div>		
+		</section>
+
+		<section class="quotes">
+			<div class="tengahni">
+				<h1 class="quote1">Don't let them disappear</h1>
+			</div>
+			<div class="kananpoto">
+				<img src="photos/ini3.png"/ class="phototengah">
+			</div>
+
+		</section>
+		<section class="aboutt">
+			<p>Earth is home to countless species of fauna and flora – too many to even attempt counting. This rich diversity, and the billions of years during which its myriad elements have interacted, are precisely what has made our planet inhabitable for all living creatures, including humans.</p>
+
+			<a href="about.html">
+				<button class="button">
+				Read More
+			</button></a>
+			
+		</section>
+		<section class="maleceo">
+			<div class="divmale">
+				<img src="photos/bosscowok.jpg" class="gambarom">
+
+				
+			</div>
+			<div class="tulisancowok">
+				<p class="cowokkanan">Humanity is an inextricable part of the rich tapestry of life that makes up our world’s biological diversity. All human civilizations have been and continue to be built on the use of wild and cultivated species of flora and fauna, from the food we eat to the air we breathe.
+				</p>				
+			</div>
+			
+		</section>
+		<section class="femaleceo">
+
+			<div class="tulisancewek">
+				<p class="cewekkiri">We are extremely fortunate to count on the presence of an endless diversity of wild animals, plants, and other lifeforms that together make up life on our planet.
+				</p>				
+			</div>
+
+			<div class="divfemale">
+				<img src="photos/bosscewek.jpg" class="gambartante">
+
+			</div>
+			
+		</section>
+
+		<section class="bawahhome">
+			<div class="partner">
+				<div class="partnars">
+					<h3 class="kawan">Partners</h3>
+				</div>
+				<div class="logos1">
+					<img src="photos/sos.png" class="logoss1">
+				</div>
+				<div class="logos">
+					<img src="photos/undp.png" class="logoss">
+				</div>
+				<div class="logos">
+					<img src="photos/wwf.png" class="logosss">
+				</div>
+
+			</div>
+			<div class="kananbawah">
+				<div class="framecoklat"><h3 class="ikut">Get Involved!</h3>
+				</div>
+
+				<a href="getinvolved.html"><button class="tombolikut">Click here</button></a>
+
+			</div>
+			<footer class="ending">
+				<div class="bawah1"><a href="about.html"><p style="color: white;">ABOUT US</p></a></div>
+				<div class="bawah2"><a>This site is managed by the CITES Secretariat</a></div> 
+				<a class="bawah3">Designed by Daffa Andrian</a>
+				<a class="bawah4">daffandrian000@gmail.com</a>
+			</footer>
+			
+		</section>		
+	</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<script class="hello">
+    var menus = [
+        "<a href='index.html'>Home</a>",
+        "<a href='getinvolved.html'>Get Involved</a>",
+        "Events",
+        "Materials",
+        "Film Festivals",
+        "Messages",
+        "Media",
+        "Email Us"
+    ]
+
+    var allMenusAsOne = ""
+
+    for (var index = 0; index < menus.length; index++) {
+
+        allMenusAsOne += "<h2 class='text'>" + menus[index] + "</h2>"
+    } 
+
+    document.getElementById("menubar").innerHTML = allMenusAsOne
+</script>
